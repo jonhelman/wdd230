@@ -6,25 +6,28 @@
     <meta charset="utf-8">
     <meta name="author" content="Helaman Chan">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/normalize.css">
+
 </head>
 
 <body>
     <header>
+	
+	<div id = "title-box"><img id = "my-pic" src="images/me.jpg" alt="me">
+	<h2 class = "my-name"> John Helaman D.S Chan </h2>
+	</div>
 
-            
     </header>
   
 <main>
   
-  
-    <img src="images/me.jpg" alt="me">
-    <h2 class = "my-name"> John Helaman D.S Chan
- </h2>
-    
-    
+   
      <h2 class = "portal-title">WD 230: Assignment Portal</h2>
+	 
+	 <div class = "horizontal-line"></div>
    
   <ul>
+ 
                 <li>Lesson 02: <a href="lesson02.html">Title</a></li>
                 <li>Lesson 03: <a href="lesson03.html">Title</a></li>
                 <li>Lesson 04: <a href="lesson04.html">Title</a></li>
@@ -36,14 +39,18 @@
                 <li>Lesson 10: <a href="lesson10.html">Title</a></li>
                 <li>Lesson 11: <a href="lesson11.html">Title</a></li>
             </ul>
-    
-  
 
+ 
+	 <div class = "horizontal-line"></div>
+	 
+	 <br>
   
     </main>
+	
     <footer>
       <p>&copy; 2022 .:|:. John Helaman D.S Chan .:|:. Philippines </p>
-    
+		<p id="date-updated">Last Updated: <script src="scripts/datemodified.js"></script>
+		</p>
         </footer>
         </body>
 

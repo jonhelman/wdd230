@@ -5,8 +5,8 @@
     <title>WDD 230: Helaman Chan</title>
     <meta charset="utf-8">
     <meta name="author" content="Helaman Chan">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/normalize.css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -14,7 +14,7 @@
     <header>
 	
 	<div id = "title-box"><img id = "my-pic" src="images/me.jpg" alt="me">
-	<h2 class = "my-name"> John Helaman D.S Chan </h2>
+	<h2 id = "my-name"> John Helaman D.S Chan </h2>
 	</div>
 
     </header>

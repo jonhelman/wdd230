@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Helaman Chan - Lesson 2</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Helaman Chan">
+	<link rel="stylesheet" href="styles/normalize.css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="lesson2/l2small.css">
+	<link rel="stylesheet" href="lesson2/l2medium.css">
+	<link rel="stylesheet" href="lesson2/l2large.css">
+</head>
+
+<body>
+    <header>
+
+	<div id = "title-box">
+	<h2 id = "title-name"> Design Principles Document</h2>
+	<h2 id = "my-name"> John Helaman D.S Chan </h2>
+	</div>
+
+    </header>
+  
+<main>
+	
+	<div id = "ex1">
+	<h2>Hick's Law</h2>
+	<p>CHOOSE YOUR REALITY</p>
+	<a href="https://thechoiceisyours.whatisthematrix.com/">thechoiceisyours.whatisthematrix.com</p></a>
+	<img id = "matrix-pic" src="lesson2/matrix.jpg" alt="matrix">
+	<p class = "description">In web design, sometimes less is more. 
+	Hence, that in order to maintain a user's engagement with your website, it would be better for you to give them less options so they won't spend too much time thinking.
+	<br>
+	<br>
+	The Matrix is one of the most famous Action Sci-Fi movies of recent history, with Neo having to pick a red pill or a blue pill being one of the most famous scenes in the movie. 
+	To reflect this, the marketing team made a promotional website that makes a user choose between a red pill or a blue pill, each leading you to a different trailer.
+	This website with only two options is enough to generate interest for their upcoming movie while simultaneously staying true to a major theme of the movie and saying less.</p>
+	</div>
+	
+	<div id = "ex2">
+	<h2>Visual Hierarchy</h2>
+	<p>Electric Pulp</p>
+	<a href="https://www.electricpulp.com/">electricpulp.com</p></a>
+	<img id = "pulp-pic" src="lesson2/pulp.jpg" alt="pulp">
+	<p class = "description">This website is a great example of emphasizing certain parts to state its significance while maintaining a very clean look, making navigation very smooth and easy.
+	This shows how much good design and effective use of a visual hierarchy can make even a simple, minimalistic website that primarily uses black text and black be attractive on its own.</p>
+	</div>
+	
+	<div id = "ex3">
+	<h2>Contrast</h2>
+	<p>Shopify</p>
+	<a href="https://www.shopify.com/">shopify.com</p></a>
+	<img id = "shop-pic" src="lesson2/shop.jpg" alt="shop">
+	<p class = "description">Shopify makes good use of contrasting colors while giving their website an attractive color scheme.
+	The white text blends very well to the apporiate green colors they have chosen. And in some sections, the dark green text contrasts very well the light green background.
+	This gives the website an identity of it's own while making it look pleasant to the user's eyes.</p>
+	</div>
+	
+    </main>
+	
+    <footer>
+      <p>&copy; 2022 .:|:. John Helaman D.S Chan .:|:. Philippines </p>
+		<p id="date-updated">Last Updated: <script src="scripts/datemodified.js"></script>
+		</p>
+        </footer>
+        </body>
+
+</html> 
+  

@@ -1,12 +1,14 @@
-@media(min-width: 64em) {
+@media(min-width: 1024px) {
 	
 	main {
+	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	}
 	
 	
 	#ex3 {
 	grid-column: span 1;
+	width: 100%;
 	}
 }
 

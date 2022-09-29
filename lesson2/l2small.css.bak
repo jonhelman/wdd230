@@ -3,6 +3,7 @@ html {
     margin-left: auto;
     margin-right: auto;
 	
+	
 	font-family: 'Noto Sans', sans-serif;
 }
 
@@ -16,9 +17,12 @@ header {
 	font-size: 120%
 }
 
+
+@media(min-width: 320px){
+	
 main {
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
 	color:black;
 	
 }

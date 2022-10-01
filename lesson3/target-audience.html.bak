@@ -57,11 +57,12 @@
   </tr>
   <tr>
     <th>Demographics</th>
-    <td><li>27-years old
+    <td><ul>
+	<li>27-years old
 	<li>Recently married
 	<li>Lives closely with relatives
 	<li>Has a BS Degree in Food Marketing
-	</td>
+	</ul></td>
   </tr>
   <tr>
     <th>Motivation</th>
@@ -95,11 +96,12 @@
   </tr>
   <tr>
    <th>Demographics</th>
-    <td><li>50 years old
+    <td><ul>
+	<li>50 years old
 	<li>Married
 	<li>Have a wife and son in Osaka
 	<li>Holds a degree in Economics
-	</td>
+	</ul></td>
   </tr>
   <tr>
     <th>Motivation</th>

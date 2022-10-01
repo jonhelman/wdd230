@@ -1,0 +1,37 @@
+@media(min-width: 768px){
+	
+h2 {
+font-size: 30px;
+}
+
+nav {
+flex-flow: row;
+text-align: center;
+font-size: 35px;
+}
+
+footer {
+font-size: 18px;
+}
+
+#logo {
+width: 60%
+}
+
+/* Target Audience */
+
+#fili {
+width: 70%;
+}
+
+#nippon {
+width: 50%;
+}
+
+/* Typography */
+
+#typography-table {
+font-size: 10px;
+}
+
+}

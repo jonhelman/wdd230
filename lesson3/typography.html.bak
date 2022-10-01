@@ -39,7 +39,7 @@
 <table id="typography-table">
 
 	<tr>
-    <th>Heading and Navigation Font</th>
+    <th>Heading Font</th>
     <td>Reem Kufi Inc</td>
 	<td id = "heading-sample">Sample Text</td>
 	<td>link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet"</td>

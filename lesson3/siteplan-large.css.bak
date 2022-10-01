@@ -1,0 +1,69 @@
+@media(min-width: 1024px) {
+
+body {
+margin-inline: 10em;
+}
+
+h2 {
+font-size: 2em;
+}
+
+header {
+	flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+main {
+	margin: 1em;
+	text-align:left;
+}
+
+
+nav {
+	display: flex;
+	flex-wrap:nowrap;
+	flex-flow: row;
+	justify-content: space-around;
+    align-items: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+	
+
+nav a {
+	font-size: 20px;
+	padding: 0.5em;
+}
+
+
+footer {
+	display: flex;
+	flex-flow: column;
+    align-items: center;
+    justify-content: center;
+	line-height: 10px;
+	border-radius: 25px;
+	font-size:14px;
+}
+
+#logo {
+width: 40%;
+}
+
+
+/* Target Audience */
+
+#fili {
+width: 40%;
+}
+
+#nippon {
+width: 25%;
+}
+
+
+}

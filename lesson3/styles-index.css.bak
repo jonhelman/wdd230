@@ -1,0 +1,56 @@
+html{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	display: flex;
+	color:white;
+	background-color: #0D3B66;
+	flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+
+nav {
+	background-color: #7abfde;
+}
+	
+
+nav a {
+	color: yellow;
+	background-color: #7abfde;
+    text-decoration: none;
+    font-size: 28px;
+    margin: 5.5em;
+
+}
+
+nav ul{
+	list-style: none; 
+	display: flex;
+    margin-left: -2.5em;
+	text-align: center;
+}
+
+nav a:hover{ 
+background-color: #E39000; 
+}
+
+
+footer {
+	color: white;
+	background-color: #0D3B66;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p#date-updated {
+	color: yellow;
+	
+}

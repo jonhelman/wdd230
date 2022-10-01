@@ -1,0 +1,129 @@
+html{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
+h2 {
+	font-family: 'Reem Kufi Ink', sans-serif;
+	font-size: 17px;
+}
+
+header {
+	display: flex;
+	color:white;
+	background-color: #0D3B66;
+	flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+	font-size: 19px;
+}
+
+main {
+	text-align: center;
+	padding: 1em;
+}
+
+
+
+
+nav {
+	font-family: 'Reem Kufi Ink', sans-serif;
+	display: flex;
+	flex-wrap:nowrap;
+	flex-flow: column;
+	justify-content: space-around;
+    align-items: center;
+	background-color: #7abfde;
+}
+	
+
+nav a {
+	color: #fce803;
+	background-color: #7abfde;
+    text-decoration: none;
+    font-size: 20px;
+	padding: 5px;
+}
+
+nav a:hover{ 
+background-color: #E39000; 
+color:black;
+}
+
+
+footer {
+	display: flex;
+	color: white;
+	background-color: #0D3B66;
+	flex-flow: column;
+    align-items: center;
+    justify-content: center;
+	line-height: 10px;
+	font-size: 12px;
+}
+
+p#date-updated {
+	color: yellow;
+	
+}
+
+#logo {
+width: 80%;
+}
+
+table, td, th {
+  border: 1px solid;
+  padding: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Target Audience */
+
+#fili {
+width: 100%;
+}
+
+#nippon {
+width: 100%;
+}
+
+#persona-table {
+font-size: 10px;
+}
+
+/* Color Scheme */
+
+#primary-sample {
+background-color: #0D3B66;
+}
+
+#secondary-sample {
+background-color: #7ABFDE;
+}
+
+#accent1-sample {
+background-color: #E39000;
+}
+
+#accent2-sample {
+background-color: #FCE803;
+}
+
+#textcolor-sample {
+background: #000000;
+}
+
+/* Typography */
+
+#typography-table {
+font-size: 7px;
+}
+
+#heading-sample {
+	font-family: 'Reem Kufi Ink', sans-serif;
+}

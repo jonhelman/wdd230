@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>DOM Manipulation</title>
+<meta charset="utf-8">
+<meta name="author" content="Helaman Chan">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="script.js">
+</head>
+
+<header>
+
+<h1>📘 Book of Mormon - Top 25</h1>
+
+</header>
+
+<body>
+<main>
+	<div class="input">
+		<label>Enter Book and Chapter<br>
+			<input type="text" id="favchap" placeholder="Alma 5" required></label>
+		<button type="submit">Add Chapter</button>
+	</div>
+	<div class="listcontainer">
+		<ul class="list">
+		</ul>
+	</div>
+</main>
+</body>
+</html>

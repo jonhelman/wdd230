@@ -56,7 +56,7 @@ nav a {
 	padding: 0.5em;
 }
 
-button {display: none;}
+header button {display: none;}
 
 #logo-footer {
 	width: 30%;
@@ -74,44 +74,76 @@ button {display: none;}
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }	
 
+.home-container div{
+	margin-left: -15px;
+}	
+
 .hero {
-	height: 182%;
+	height: 95%;
+    width: 94%;
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 1/3;
 }
 
+.hero img {
+	width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.hero button {
+	right: 11em;
+    bottom: 17em;
+    font-size: 25px;
+    left: 53%;
+    width: 396px;
+    height: 53px;
+    margin-top: -250px;
+    margin-left: -250px;
+}
 
 .news {
-	height: 150px;
+	height: 100%;
+	width: 94%;
     grid-column: 2/4;
     grid-row: 3/3;
 
 }
 
 .event {
-	height: 150px;
-    grid-column: 1/1;
+	width: 88%;
+    height: 89%;
+    font-size: 15px;
+    grid-column: 2/1;
     grid-row: 1/1;
 }
 
+
 .weather {
-	height: 150px;
+	height: 92%;
+    width: 88%;
     grid-column: 1/1;
     grid-row: 2/2;
 }
 
 
-
 .join {
-	height: 150px;
-	grid-column: 1/1;
+	height: 100%;
+    width: 88%;
+    grid-column: 1/1;
     grid-row: 3/3;
+}
+
+.join button{
+	right: 18em;
+    bottom: 16em;
+    font-size: 25px;
 }
 
 #spotlights {
 	grid-column: 4/4;
     grid-row: 1/4;
-	height: 94%;
+	height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -119,6 +151,7 @@ button {display: none;}
 #spotlights div{
     width: 85%;
 	height: 100%;
+	margin: 22px;
 }
 
 #spotlight-large {

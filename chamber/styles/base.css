@@ -2,8 +2,6 @@ html{
 	font-family: 'Noto Sans', sans-serif;
 }
 
-
-
 h2 {
 	font-family: 'Reem Kufi Ink', sans-serif;
 	font-size: 25px;
@@ -72,7 +70,7 @@ color:black;
 
 /* hamburg germany */
 
-button {
+header button {
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
@@ -100,7 +98,16 @@ button {
     grid-column: 1/4;
 }
 
-
+#daymessage {
+	background-color: #fce803;
+    color: black;
+    grid-column: 1/4;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+	font-size: 14px;
+}
 
 
 main {
@@ -114,38 +121,99 @@ main {
 
 .home-container div{
 	flex-direction: column;
-	background-color: #D3D3D3;
-	font-style: italic;
-	text-align: left;
+	background-color: #7ABFDE;
+	text-align: center;
 	margin: 5px;
 	padding: 10px;
 	border-width: 10px;
 	border: 0.5px solid black;
+    margin-left: -3%;
 }
 
+.home-container h2{
+	color:  #fce803;
+    text-align: center;
+
+}
 
 .hero {
-	height: 150px;	
+	width: 103%;
+    height: 100%;
 }
 
+.hero img {
+	width: 103%;
+    height: 100%;
+    margin: -33px;	
+}
+
+
+
+.hero button {
+font-family: 'Reem Kufi Ink', sans-serif;
+background-color: #04AA6D; 
+  border: 1px solid green; 
+  color: white;
+  padding: 10px 24px;
+  position: absolute;
+  right: 10em;
+  bottom: 30em;
+}
+
+.hero button:hover {
+	background-color: #3e8e41;
+  }
+
 .news {
-    height: 150px;
+    height: 100%;
+	width: 103%;;
 }
 
 .join {
     display: none;
+	height: 100%;
+	width: 103%;;
 }
 
+.join button{
+	font-family: 'Reem Kufi Ink', sans-serif;
+	background-color: #04AA6D; 
+	border: 1px solid green; 
+	color: white;
+	width: 100%;
+}
+
+.join button:hover {
+	background-color: #3e8e41;
+  }
+
 .event {
-    height: 150px;
+    height: 100%;
+	width: 103%;;
 }
 
 .weather {
-    height: 150px;
+    height: 100%;
+	width: 103%;;
+}
+
+#currentweather {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 40px;
+	border:0;
+	margin:0;
+}
+
+#currentweather img{
+	width: 40%;
 }
 
 #spotlights {
-	height: 23em;
+	height: 100%;
+	width: 103%;;
 }
 
 #spotlights div{

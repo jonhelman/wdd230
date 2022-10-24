@@ -13,4 +13,16 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+// Day notificatyiom
+
+const thisDay = new Date();
+
+now.getDay(thisDay)
+  
+if (now.getDay(thisDay) > 0 && now.getDay(thisDay) < 3) {
+  document.getElementById('daymessage').style.display = 'flex';
+}
+else {
+  document.getElementById('daymessage').style.display = 'none';
+}

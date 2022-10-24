@@ -9,6 +9,8 @@
     <link href="styles/style.css" rel="stylesheet" type="text/css">
 	
 	<link rel="stylesheet" href="styles/medium.css">
+	<link rel="shortcut icon" href="images/favicon2.ico">
+
 	
 </head>
 
@@ -29,14 +31,13 @@
 	 <div class = "horizontal-line"></div>
    
   <ul>
- 
                 <li>Lesson 02: <a href="design-principles.html" target=”_blank”>Design Principles</a></li>
                 <li>Lesson 03: <a href="lesson3/index.html" target=”_blank”>Website Planning Document</a></li>
                 <li>Lesson 04: <a href="lesson4/index.html" target=”_blank”>Chamber Home Page Build</a></li>
                 <li>Lesson 05: 
 					<ul>
-					<li><a href="bomdom/bom.html">DOM Manipulation</a></li>
-					<li><a href="chamber/index.html">Chamber Home Page Continued(WIP)</a></li>
+					<li><a href="bomdom/bom.html" target=”_blank”>DOM Manipulation</a></li>
+					<li><a href="chamber/index.html" target=”_blank”>Chamber Home Page Continued(WIP)</a></li>
 					</ul>
                 <li>Lesson 06: <a href="lesson06.html">Title</a></li>
                 <li>Lesson 07: <a href="lesson07.html">Title</a></li>

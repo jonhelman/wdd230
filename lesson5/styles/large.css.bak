@@ -99,7 +99,6 @@ header button {display: none;}
     height: 53px;
     bottom: 10%;
     position: absolute;
-}
 
 .news {
 	height: 100%;

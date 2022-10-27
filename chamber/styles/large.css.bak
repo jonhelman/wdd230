@@ -1,20 +1,16 @@
 @media(min-width: 1024px) {
 
-body {
-margin-inline: 10em;
-}
 
 h2 {
 font-size: 2em;
 }
 
 header {
+	grid-template-columns: 3fr 1fr 1fr;
 	flex-flow: column;
     align-items: center;
     justify-content: center;
     line-height: 10px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
 }
 
 main {
@@ -22,53 +18,143 @@ main {
 	text-align:left;
 }
 
+#title {
+	justify-content: center;
+}
+
+#logo {
+	width: 90%;
+	}
+	
+.socials {
+	width: 80%;
+}
 
 nav {
+	grid-column: 2/3;
+    grid-row: 1/2;
+	margin-right: 2em;
+    margin-top: 1em;
+}
+
+nav ul {
 	display: flex;
-	flex-wrap:nowrap;
 	flex-flow: row;
 	justify-content: space-around;
-    align-items: center;
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+	list-style: none;
+	margin-top: 0;
+}
+
+nav ul.open { 	
+	display: flex;
+	flex-flow: row;
 }
 	
 
 nav a {
-	font-size: 20px;
+	font-size: 25px;
 	padding: 0.5em;
 }
 
+header button {display: none;}
 
-footer {
-	display: flex;
-	flex-flow: column;
-    align-items: center;
-    justify-content: center;
-	line-height: 10px;
-	border-radius: 25px;
-	font-size:14px;
-}
+#logo-footer {
+	width: 30%;
+	margin-top: 1em;
+	}
 
-#logo {
-width: 30%;
+.footer-left {
+	margin-top: 1em;
 }
 
 
-/* Target Audience */
+/* Home Boxes */
 
-#fili {
-width: 40%;
+.home-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}	
+
+.home-container div{
+	margin-left: -15px;
+}	
+
+.hero {
+	height: 95%;
+    width: 94%;
+    grid-column: 2/4;
+    grid-row: 1/3;
 }
 
-#nippon {
-width: 25%;
+.hero img {
+	width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
-/* Typography */
-
-#typography-table {
-font-size: 16px;
+.hero button {
+	font-size: 25px;
+    left: 31%;
+    width: 396px;
+    height: 53px;
+    bottom: 10%;
+    position: absolute;
 }
+
+.news {
+	height: 100%;
+	width: 94%;
+    grid-column: 2/4;
+    grid-row: 3/3;
+
+}
+
+.event {
+	width: 88%;
+    height: 89%;
+    font-size: 15px;
+    grid-column: 2/1;
+    grid-row: 1/1;
+}
+
+
+.weather {
+	height: 92%;
+    width: 88%;
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+
+.join {
+	height: 100%;
+    width: 88%;
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+.join button{
+	right: 18em;
+    bottom: 16em;
+    font-size: 25px;
+}
+
+#spotlights {
+	grid-column: 4/4;
+    grid-row: 1/4;
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#spotlights div{
+    width: 85%;
+	height: 100%;
+	margin: 22px;
+}
+
+#spotlight-large {
+	display: block;
+}
+/* */
 
 }

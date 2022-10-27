@@ -30,7 +30,7 @@ font-size: 35px;
 
 .hero button{
     right: 50%;
-    left: 36%;
+    left: 50%;
     bottom: 26%;
     width: 33%;
     font-size: 25px;

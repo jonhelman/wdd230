@@ -3,10 +3,10 @@
 
 <head>
     <title>Home - Bacoomerce</title>
-    <meta charset="utf-8">
     <meta name="author" content="Helaman Chan">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="shortcut icon" href="images/favicon.ico">
     
 	<link href="styles/base.css" rel="stylesheet" type="text/css">
 	<link href="styles/medium.css" rel="stylesheet" type="text/css">
@@ -14,13 +14,11 @@
 	
 	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	
 </head>
 
 <body>
     <header>
-	<img id = "logo" src="images/coc.png" alt="bacoomerce">
+	<img id = "logo" src="images/wdd230-org" alt="bacoomerce">
 
 	<div class = "socials">
 	<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
@@ -40,22 +38,65 @@
 
 	<div class="date"></div>
 
+	<p id = "daymessage">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+
     </header>
 
 <main>
 	
-<div class = "home-container">
+<div class = "home-container">	
 
-<div class="hero">Hero with site name and call to action</div>
-<div class="event">Event</div>
-<div class="weather">Weather</div>
-<div class="news">News</div>
-<div class="join">Join</div>
-<div class="event">Event</div>
+<div class="hero">
+<img src="images/bacoor.png" alt="bacoor">
+<button>Join the chamber</button>
+</div>
+
+<div class="event">
+	<h2>Current Event Highlight</h2>
+	<p>Ribbon cutting of The Diamond Shack</p>
+	<p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m.</p>
+	<a href= "" target="_blank">more info...</a>
+</div>
+
+<div class="weather">
+	<h2>Weather</h2>
+	<div id = "currentweather">
+		<img src="images/rainycloud.png" alt = "rainycloud">
+		<p id = "temperature">29°</p>
+	</div>
+	<p>Wind Speed: <span id="wspeed"></span> km/h</p>
+	<p>Wind Chill: <span id="wchill"></span></p>
+	</div>
+
+	<div class="news">
+	<h2>News Release</h2>
+	<p>LRT1 Cavite extension 73% done —LRMC</p>
+	<p>October 13, 2022</p>
+	<p>The construction of the first phase of the P64-billion Light Rail Transit Line 1 (LRT1) extension to Bacoor, Cavite is now 73% complete, private sector operator Light Rail Manila Corporation (LRMC) said Thursday</p>
+	<a href= "https://www.gmanetwork.com/news/money/companies/847955/lrt1-cavite-extension-73-done-lrmc/story/" target="_blank">Read more...</a>
+</div>
+
+<div class="join">
+	<button>Join us!</button>
+	<p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+</div>
+
+
 <div id ="spotlights">
-	<div>Spotlight 1</div>
-	<div>Spotlight 2</div>
-	<div id = "spotlight-large">Spotlight 3</div>
+	
+	<div>
+	<h2>To be announced</h2>
+	<p>Stay tuned!</p>
+	</div>
+
+	<div>
+	<h2>To be announced</h2>
+	<p>Stay tuned!</p>
+	</div>
+	<div id = "spotlight-large">
+	<h2>To be announced</h2>
+	<p>Stay tuned!</p>
+	</div>
 </div>
 
 </div>
@@ -65,7 +106,7 @@
 </main>
 	
     <footer>
-	<img id = "logo-footer" src="images/coc-logo.png" alt="bacoomerce">
+	<img id = "logo-footer" src="images/coc-logo.webp" alt="bacoomerce">
 	<div class = footer-left>
 		<h2>Bacoormerce</h2>
 		<p>Chamber of Commerce of Bacoor City.</p>
@@ -86,6 +127,7 @@
         </footer>
 		<script src="scripts/borgir.js"></script>
 		<script src="scripts/currentdate.js"></script>
+		<script src="scripts/windchill.js"></script>
         </body>
 </html> 
   

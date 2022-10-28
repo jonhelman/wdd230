@@ -47,7 +47,12 @@
 <div class = "home-container">	
 
 <div class="hero">
-<img src="images/wdd230-org.jpg" alt="bacoor">
+	<picture id = "heroimg">
+		<source media="(max-width: 425px)" srcset="images/wdd230org-small.webp">
+		<source media="(max-width: 768px)" srcset="images/wdd230org-medium.webp">
+		<source media="(max-width: 1024px)" srcset="images/wdd230org-large.webp">
+		<img src="images/wdd230org.webp" alt="wdd230">
+	</picture>
 <button>Join the chamber</button>
 </div>
 
@@ -62,9 +67,9 @@
 	<h2>Weather</h2>
 	<div id = "currentweather">
 		<img src="images/rainycloud.png" alt = "rainycloud">
-		<p id = "temperature">29°</p>
+		<p><span id= "temperature">29</span>°C</p>
 	</div>
-	<p>Wind Speed: <span id="wspeed"></span> km/h</p>
+	<p>Wind Speed: <span id="wspeed">35</span> km/h</p>
 	<p>Wind Chill: <span id="wchill"></span></p>
 	</div>
 

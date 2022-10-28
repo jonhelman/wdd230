@@ -1,6 +1,7 @@
 function set_weather_data(){
     const T = parseFloat(document.getElementById('temperature').textContent);
     const V = parseFloat(document.getElementById('wspeed').textContent);
+    
     const F = document.getElementById('wchill');
 
     let windchill = 0; 

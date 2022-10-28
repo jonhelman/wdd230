@@ -152,7 +152,7 @@ main {
     position: absolute;
     right: 50%;
     left: 32%;
-    bottom: 48%;
+    bottom: 56%;
     width: 37%;
 }
 
@@ -273,15 +273,3 @@ table {
   border-collapse: collapse;
 }
 
-
-main figure.myphoto img {width: 100%;}
-main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
-
-main picture.heroimg img {width: 100%;}
-
-
-picture.heroimg {
-    display: block;
-    width: 96%;
-    margin: 0 2%;
-}

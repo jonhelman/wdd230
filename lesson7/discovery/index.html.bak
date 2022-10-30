@@ -3,7 +3,6 @@
 
 <head>
     <title>Home - Bacoomerce</title>
-	<meta charset="utf-8">
     <meta name="author" content="Helaman Chan">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/normalize.css">
@@ -19,7 +18,7 @@
 
 <body>
     <header>
-	<img id = "logo" src="images/coc.webp" alt="bacoomerce">
+	<img id = "logo" src="images/wdd230-org" alt="bacoomerce">
 
 	<div class = "socials">
 	<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
@@ -29,8 +28,8 @@
 	<button id = "hamburgerBtn"><span>&#9776;</span><span>X</span></button>
 	<nav>
     <ul id="primaryNav">
-		<li><a href="chamber/index.html">Home</a></li>
-		<li><a href="lesson7/discovery/discover/html">Discover</a></li>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="">Discover</a></li>
 		<li><a href="">Directory</a></li>
 		<li><a href="">Join</a></li>
 		<li><a href="">Contact</a></li>
@@ -48,11 +47,7 @@
 <div class = "home-container">	
 
 <div class="hero">
-	<picture class = "heroimg">
-		<source media="(max-width: 767px)" srcset="images/wdd230org-small.webp">
-		<source media="(max-width: 1023px)" srcset="images/wdd230org-medium.webp">
-		<img src="images/wdd230org-large.webp" alt="wdd230">
-	</picture>
+<img src="images/bacoor.png" alt="bacoor">
 <button>Join the chamber</button>
 </div>
 
@@ -67,9 +62,9 @@
 	<h2>Weather</h2>
 	<div id = "currentweather">
 		<img src="images/rainycloud.png" alt = "rainycloud">
-		<p><span id= "temperature">29</span>°C</p>
+		<p id = "temperature">29°</p>
 	</div>
-	<p>Wind Speed: <span id="wspeed">35</span> km/h</p>
+	<p>Wind Speed: <span id="wspeed"></span> km/h</p>
 	<p>Wind Chill: <span id="wchill"></span></p>
 	</div>
 

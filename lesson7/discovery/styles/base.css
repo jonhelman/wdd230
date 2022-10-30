@@ -1,0 +1,215 @@
+html{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Reem Kufi Ink', sans-serif;
+	font-size: 25px;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	color:white;
+	background-color: #0D3B66;
+	flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+
+#logo {
+	margin: 0.5em;
+	width: 120%;
+	}
+
+.socials {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+    width: 115%;
+    margin: 10px;
+}
+
+.socials a {
+	margin: 5px;
+}
+
+/* nav */
+
+nav {
+	font-family: 'Reem Kufi Ink', sans-serif;
+	grid-column: 1/4;
+}
+	
+nav ul {
+	display:none;
+}
+
+nav ul.open { 	
+	padding: 0;
+    margin: 0;
+	display: block;
+	list-style: none;
+}
+nav a {
+	display: flex;
+	color: #fce803;
+    text-decoration: none;
+    font-size: 20px;
+	padding: 10px;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav a:hover{ 
+background-color: #E39000; 
+color:black;
+}
+
+/* hamburg germany */
+
+header button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+	grid-column: 3/3;
+	grid-row: 1/3;
+
+	display: flex;
+    justify-content: flex-end;
+	margin: 1em;	
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/*  */
+
+.date {
+	font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    grid-column: 1/4;
+}
+
+
+main {
+	padding: 1em;
+}
+
+main h2{
+	color:#fce803;
+}
+
+
+
+/* Home Boxes */
+
+.discover-container{
+    background-color: #7ABFDE;
+    margin: -16px;
+    padding: 10px;
+    border-width: 10px;
+    border: 0.5px solid black;
+    margin-left: -3%;
+}
+
+.discover-container h2{
+	color:  #fce803;
+}
+
+#discover-title {
+	text-align: center;
+}
+
+.sm-bacoor {
+	width: 100%;
+}
+
+.discover-container figcaption {
+	text-align: center;
+}
+
+.gallery-section {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+    background-color: #7ABFDE;
+    margin: -16px;
+    padding: 10px;
+    border-width: 10px;
+    border: 0.5px solid black;
+    margin-left: -3%;
+}
+
+.gallery-images img{
+	width: 60%;
+}
+
+
+.visit-count {
+	text-align: center;
+	background-color: #7ABFDE;
+	margin: -16px;
+	padding: 10px;
+	border-width: 10px;
+	border: 0.5px solid black;
+	margin-left: -3%;
+}
+
+.visit-count p {
+	font-weight: bold;
+	font-size:35px;
+}
+
+/* */
+footer {
+	color: white;
+	background-color: #0D3B66;
+	line-height: 20px;
+	font-size: 14px;
+	bottom: 0;
+    width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+#location-link {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-end {
+	display: flex;
+	flex-flow: column;
+    align-items: center;
+}
+
+#logo-footer {
+	width: 10%;
+	margin-top: 5px;
+
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+table, td, th {
+  border: 1px solid;
+  padding: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+

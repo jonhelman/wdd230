@@ -1,0 +1,72 @@
+@media(min-width: 768px){
+	
+h2 {
+font-size: 30px;
+}
+
+nav {
+font-size: 35px;
+}
+
+#logo {
+    width: 100%;
+    }
+
+.socials{
+    width: 140%;
+}
+
+/* Home Boxes */
+
+.discover-container figure {
+display: flex;
+flex-direction: column;
+float: left;
+width: 65%;
+}
+
+
+.gallery-images img{
+	width: 50%;
+}
+
+.gallery-images img:hover{
+	width: 60%;
+}
+
+
+/* */
+
+
+footer {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+font-size: 14px;
+}
+
+#logo-footer {
+    width: 50%;
+    margin-top: 1em;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.footer-left {
+    grid-column: 2/2;
+    text-align: left;
+}
+
+.footer-right {
+    grid-column: 3/4;
+    margin-top: 3em;
+}
+
+
+.footer-end {
+	display: grid;
+    grid-column: 1/5;
+}
+
+
+}

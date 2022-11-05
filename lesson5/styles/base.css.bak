@@ -19,20 +19,24 @@ header {
 }
 
 #logo {
-	margin: 0.5em;
-	width: 120%;
+	width: 252px;
+    margin: 0.5em;
+    margin-left: 8px;
 	}
 
 .socials {
 	display: flex;
-	flex-flow: row;
-	justify-content: flex-end;
-    width: 115%;
-    margin: 10px;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin-left: 3em;
+}
+
+.socials img {
+	width: 50px;
 }
 
 .socials a {
-	margin: 5px;
+	margin: 4px;
 }
 
 /* nav */

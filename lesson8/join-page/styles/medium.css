@@ -19,23 +19,8 @@ font-size: 35px;
 }
 
 
-/* Home Boxes */
+/* */
 
-.discover-container figure {
-display: flex;
-flex-direction: column;
-float: left;
-width: 65%;
-}
-
-
-.gallery-images img{
-	width: 50%;
-}
-
-.gallery-images img:hover{
-	width: 60%;
-}
 
 
 /* */

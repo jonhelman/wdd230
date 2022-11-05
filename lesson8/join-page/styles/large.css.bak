@@ -23,7 +23,7 @@ main {
 }
 
 #logo {
-	width: 308px;
+	width: 90%;
 	}
 	
 .socials {
@@ -34,7 +34,7 @@ main {
 nav {
 	grid-column: 2/3;
     grid-row: 1/2;
-	margin-right: 2em;
+    margin-right: 2em;
     margin-top: 1em;
 }
 
@@ -69,64 +69,9 @@ header button {display: none;}
 }
 
 
-/* Discovery Boxes */
-.discover-container{
-    padding: 1em;
-	margin: 0;
-	margin-left: 0;
-}
+/*  */
 
-.discover-container figure {
-	width: 30%;
-}
-
-.gallery-section{
-	width: 100%;
-
-    margin: 20px;
-    padding: 0;
-    margin-left: 0;
-}
-
-.gallery-images{
-	display: flex;
-	flex-direction: row;
-}
-
-.gallery-images img{
-	width: 100%;
-}
-
-.gallery-images img:hover{
-	width: 115%;
-}
-
-
-.visit-count {
-    text-align: center;
-    margin: 20px;
-    padding: 0;
-    margin-left: 5%;
-    width: 95%;
-}
-
-.visit-count figure {
-	padding-top: 10%;
-	}
-
-.second-half{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	}
-
-.gallery-section {
-	grid-column: 1/3;
-	}
-
-.visit-count {
-	grid-column: 3/3;
-	}
 	
-
+/*  */
 }
 

@@ -29,9 +29,12 @@ font-size: 35px;
 }
 
 .hero button{
-    right: 11em;
-    bottom: 17em;
+    right: 50%;
+    left: 36%;
+    bottom: 26%;
+    width: 33%;
     font-size: 25px;
+    position: absolute;
 }
 
 .news {

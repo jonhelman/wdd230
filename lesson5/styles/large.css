@@ -23,11 +23,12 @@ main {
 }
 
 #logo {
-	width: 90%;
+	width: 308px;
 	}
 	
 .socials {
-	width: 80%;
+	margin-right: 0;
+    margin: 0px;
 }
 
 nav {

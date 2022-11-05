@@ -148,14 +148,16 @@ main {
 }
 
 .hero button {
-font-family: 'Reem Kufi Ink', sans-serif;
-background-color: #04AA6D; 
-  border: 1px solid green; 
-  color: white;
-  padding: 10px 24px;
-  position: absolute;
-  right: 10em;
-  bottom: 30em;
+	font-family: 'Reem Kufi Ink', sans-serif;
+    background-color: #04AA6D;
+    border: 1px solid green;
+    color: white;
+    padding: 10px 24px;
+    position: absolute;
+    right: 50%;
+    left: 32%;
+    bottom: 48%;
+    width: 37%;
 }
 
 .hero button:hover {

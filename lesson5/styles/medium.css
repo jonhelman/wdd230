@@ -9,11 +9,13 @@ font-size: 35px;
 }
 
 #logo {
-    width: 100%;
+    width: 450px;
+	margin-left: 0;
     }
 
 .socials{
-    width: 140%;
+    width: 60px;
+	margin-left: 12em;
 }
 
 /* Home Boxes */

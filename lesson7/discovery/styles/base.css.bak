@@ -98,133 +98,78 @@ header button {
     grid-column: 1/4;
 }
 
-#daymessage {
-	background-color: #fce803;
-    color: black;
-    grid-column: 1/4;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-	font-size: 14px;
-}
-
 
 main {
 	padding: 1em;
 }
 
+main h2{
+	color:#fce803;
+}
 
 
 
 /* Home Boxes */
 
-.home-container div{
-	flex-direction: column;
-	background-color: #7ABFDE;
-	text-align: center;
-	margin: 5px;
-	padding: 10px;
-	border-width: 10px;
-	border: 0.5px solid black;
+.discover-container{
+    background-color: #7ABFDE;
+    margin: -16px;
+    padding: 20px;
+    border-width: 10px;
+    border: 0.5px solid black;
     margin-left: -3%;
 }
 
-.home-container h2{
+.discover-container h2{
 	color:  #fce803;
-    text-align: center;
-
 }
 
-.hero {
-	width: 103%;
-    height: 100%;
+#discover-title {
+	text-align: center;
 }
 
-.hero img {
-	width: 103%;
-    height: 100%;
-    margin: -33px;	
-}
-
-.hero button {
-font-family: 'Reem Kufi Ink', sans-serif;
-background-color: #04AA6D; 
-  border: 1px solid green; 
-  color: white;
-  padding: 10px 24px;
-  position: absolute;
-  right: 10em;
-  bottom: 30em;
-}
-
-.hero button:hover {
-	background-color: #3e8e41;
-  }
-
-.news {
-    height: 100%;
-	width: 103%;;
-}
-
-.join {
-    display: none;
-	height: 100%;
-	width: 103%;;
-}
-
-.join button{
-	font-family: 'Reem Kufi Ink', sans-serif;
-	background-color: #04AA6D; 
-	border: 1px solid green; 
-	color: white;
+.sm-bacoor {
 	width: 100%;
 }
 
-.join button:hover {
-	background-color: #3e8e41;
-  }
-
-.event {
-    height: 100%;
-	width: 103%;;
+.discover-container figcaption {
+	text-align: center;
 }
 
-.weather {
-    height: 100%;
-	width: 103%;;
-}
-
-#currentweather {
+.gallery-section {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+    background-color: #7ABFDE;
+    margin: -16px;
+    padding: 10px;
+    border-width: 10px;
+    border: 0.5px solid black;
+    margin-left: -3%;
+}
+
+.gallery-images img{
+	width: 60%;
+}
+
+
+.visit-count {
+	text-align: center;
+	background-color: #7ABFDE;
+	margin: -16px;
+	padding: 10px;
+	border-width: 10px;
+	border: 0.5px solid black;
+	margin-left: -3%;
+}
+
+.visit-count p {
 	font-weight: bold;
-	font-size: 40px;
-	border:0;
-	margin:0;
-}
-
-#currentweather img{
-	width: 40%;
-}
-
-#spotlights {
-	height: 100%;
-	width: 103%;;
-}
-
-#spotlights div{
-	height: 42%;
-}
-
-#spotlight-large {
-	display: none;
+	font-size:35px;
 }
 
 /* */
-
-
 footer {
 	color: white;
 	background-color: #0D3B66;
@@ -267,3 +212,4 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+

@@ -14,3 +14,5 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+// Hidden Date on Registration Form:
+document.getElementById('timendate').value = now;

@@ -18,6 +18,7 @@ main {
 	text-align:left;
 }
 
+
 #title {
 	justify-content: center;
 }
@@ -71,7 +72,15 @@ header button {display: none;}
 
 /*  */
 
-	
+.join-box {
+	margin-left: -1%;
+}
+
 /*  */
 }
+
+
+
+
+
 

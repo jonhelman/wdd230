@@ -113,7 +113,104 @@ main h2{
 
 
 
-/* */
+/* Join */
+
+.join-box {
+    background-color: #7ABFDE;
+    margin: -16px;
+    padding: 20px;
+    border-width: 10px;
+    border: 0.5px solid black;
+    margin-left: -4%;
+}
+
+.join-box h2 {
+	text-align: center;
+}
+
+/* Form */
+
+.field-title {
+    font-weight: bold;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend{
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form.div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(245 245 245);
+}
+
+form label.sbs {    
+    display:block;
+    padding: .75rem 0;
+}
+
+.required-field {
+    font-style: italic;
+}
+
+.submitBtn {
+    border: none;
+    background-color: #fce803;
+    color: #995c1e;
+    border-radius: 1rem;
+    padding: 1.75rem 1.5rem;
+    margin: 0px 0 1rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 30px;
+}
+
+.submitBtn:hover {
+    color: #fce803;
+    background-color: #995c1e; 
+    cursor: pointer;
+}
+
+
+.business-description {
+    width: 25em;
+}
+
+.end-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* Thank you */
+.thankyou-message {
+    text-align: center;
+}
+
+.thankyou-message h2{
+    color: black;
+}
 
 
 /* */

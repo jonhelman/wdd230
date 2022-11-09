@@ -31,8 +31,8 @@
     <ul id="primaryNav">
 		<li><a href="https://jonhelman.github.io/wdd230/chamber/index.html">Home</a></li>
 		<li><a href="https://jonhelman.github.io/wdd230/lesson7/discovery/discover.html">Discover</a></li>
-		<li><a href="">Directory</a></li>
-		<li><a href="join.html">Join</a></li>
+		<li><a href="directory.html">Directory</a></li>
+		<li><a href="https://jonhelman.github.io/wdd230/lesson8/join-page/join.html">Join</a></li>
 		<li><a href="">Contact</a></li>
 	</ul>
 	</nav>
@@ -44,52 +44,7 @@
 
 <main>
 
-<div class = "join-box">
-	<h2>Join our Chamber!</h2>
-	<form action="thankyou.html" method="get">
-		
-		<fieldset class="top-field">
-			<legend class = "field-title">Applicant Information</legend>
 
-			<label class="top">First name*:<input type="text" name="fname" required></label>
-			<label class="top">Last name*:<input type="text" name="lname" required></label>
-			<label class="top">Business Position:<input type="text" name="business-position" pattern="[A-Z a-z-' ']{7,}"></label>
-			<label class="top">Email Address*:<input type="text" name="email" 
-				placeholder="username@email.com" required></label>
-			<label class="top">Phone No,*:<input type="tel" name="phone" placeholder="09##########" required></label>
-			<label class="top">Business Name/Title*:<input type="text" name="business-name" required></label>
-				
-			<p>* <span class = "required-field">Required Field </span></p>
-			
-		</fieldset>
-
-		<fieldset class="membership field">
-			<legend class = "field-title">Membership Level</legend>
-			<label class ="sbs"><input type="radio" name="membership" value="non-profit"> NP Membership (Non-Profit)</label>
-			<label class ="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-			<label class ="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-			<label class ="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-		</fieldset>
-
-		<fieldset class="business-field">
-			<legend class = "field-title">Brief Business Description</legend>
-			<label>Business Description:
-				<br>
-				<br>
-				<textarea class = "business-description" name="business-description"></textarea>
-			</label>
-		</fieldset>
-
-		<span class = "end-section">
-		<input class="submitBtn" type="submit" value="Join the chamber">
-		</span>
-
-	<input type="hidden" id="timendate" name="timendate" value="">
-
-
-	</form>
-	
-</div>
 
 </main>
 	

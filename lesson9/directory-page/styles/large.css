@@ -72,7 +72,9 @@ header button {display: none;}
 
 /*  */
 
-
+.join-box {
+	margin-left: -1%;
+}
 
 /*  */
 }

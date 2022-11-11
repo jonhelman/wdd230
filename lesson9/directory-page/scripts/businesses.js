@@ -1,4 +1,4 @@
-const requestURL = 'data.json';
+const requestURL = 'https://jonhelman.github.io/wdd230/lesson9/directory-page/scripts/data.json';
 const cards = document.querySelector('.nothing personal');
 
 fetch(requestURL)
@@ -14,7 +14,7 @@ fetch(requestURL)
     
 
 
-function displayBusinesses(prophet) {
+function displayBusinesses(businesses) {
   // Create elements to add to the document
   let card = document.createElement('section');
   let company_name = document.createElement('h2');
@@ -25,7 +25,7 @@ function displayBusinesses(prophet) {
   // Change the textContent property of the h2 element to contain the prophet's full name
 
  address.innerHTML = `${businesses.address}`;
- phone_no.innerHTML = `${prophet.contact-number}`;
+ phone_no.innerHTML = `${businesses.phone}`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   //portrait.setAttribute('src', prophet.imageurl);

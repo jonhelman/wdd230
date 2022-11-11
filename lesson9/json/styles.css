@@ -17,7 +17,7 @@ header h1{
 
 img { 
   width: auto;
-  max-width: 400;
+  max-width: 400px;
   height: 300px;
 }
 

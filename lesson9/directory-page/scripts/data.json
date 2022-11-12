@@ -44,8 +44,14 @@
     },
 	{
       "company": "Hyper-Aire Industrial & Development Corporation",
-      "address": "308 Negra Arroyo Lane, Albuquerque, New Mexico. 87104",
+      "address": "18 Ilaya Street, Niog II, Bacoor City, Cavite",
       "phone": "(918) 543-0000",
+      "imageurl": ""
+    },
+  	{
+      "company": "Oddway International",
+      "address": "Ayala Ave cor Gil Puyat Ave. Makati City. Manila 1227, Bacoor City",
+      "phone": "(987) 333-6444",
       "imageurl": ""
     }
 ]

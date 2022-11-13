@@ -17,8 +17,8 @@ fetch(requestURL)
 function displayBusinesses(businesses) {
   // Create elements to add to the document
   let card = document.createElement('section');
-  let company_name = document.createElement('h2');
-//  let logo = document.createElement('img');
+ // let company = document.createElement('h2');
+  let logo = document.createElement('img');
   let address = document.createElement('p');
   let phone_no = document.createElement('p');
 
@@ -28,16 +28,15 @@ function displayBusinesses(businesses) {
  phone_no.innerHTML = `${businesses.phone}`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-  //portrait.setAttribute('src', prophet.imageurl);
+  logo.setAttribute('src', businesses.image);
 
-///  portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${no_suffix} Latter-day President`);
-//  portrait.setAttribute('loading', 'lazy');
+  logo.setAttribute('alt', `${businesses.company}`);
+  logo.setAttribute('loading', 'lazy');
 
   // Add/append the section(card) with the h2 element
-  card.appendChild(company_name);
+  card.appendChild(logo)
   card.appendChild(address)
   card.appendChild(phone_no)
-//  card.appendChild(portrait);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.nothing-personal').appendChild(card);

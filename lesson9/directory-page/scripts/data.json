@@ -4,54 +4,63 @@
       "company": "SM City Bacoor",
       "address": "Brgy, Gen. Emilio Aguinaldo Highway, cor Tirona Hwy, Bacoor City, Cavite,",
       "phone": "(046) 417-0332",
+      "website": "https://www.smsupermalls.com/mall-directory/sm-city-bacoor/information/",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/sm-bacoor.jpg"
     },
 	{
-      "company": "Balangkas Construction Copany",
+      "company": "Balangkas Construction Company",
       "address": "Block 6 Lot 19 Bigaa Street, Phase 3, Meadowod Executive Village, Panapaan 8, Bacoor City, Cavite",
       "phone": "(046) 502-2507",
+      "website": "https://www.facebook.com/BalangkasConst",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/balangkas.jpg"
     },
 	{
       "company": "Clickone Hospitality Human Resources Corp",
       "address": "Blk3 Phase 2 Bagong Silang Queen's Row East, (Near Blue Heaven Memorial Park) Bacoor City of 4102 Cavite",
       "phone": "(094) 9647-8404",
+      "website": "https://www.facebook.com/ClickonePhilippines/",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/clickone.jpg"
     },
 	{
       "company": "Avate IT Solutions & Services",
       "address": "Phase 4 Block 2 Lot 27, Heron St. Amaris Homes, Molino IV, Bacoor City, Cavite",
       "phone": "(046) 458-2404",
+      "website": "https://www.avate.net",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/avate.jpg"
     },
     {
       "company": "JENNaire Inc.",
       "address": "Block 5 Lot 12 San Miguel 1 Subdivision, Molino IV, Bacoor Cavite 4102, Bacoor City, Cavite",
       "phone": "(046) 418-2586",
+      "website": "https://www.businesslist.ph/company/300867/jennaire-inc",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/jenn.jpg"
     },
 	{
       "company": "Blanco's Catering and Events",
       "address": "Georgetown Heights, Molino IV, City of Bacoor, Cavite, Bacoor City, Cavite",
       "phone": "(046) 6867852",
+      "website": "https://www.blancos-catering-and-events.weeblysite.com/",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/blanco.jpg"
     },
 	{
       "company": "WYS Enterprise Solutions LTD",
       "address": "2F/Bldg. 39, North Bertaphil II Clark, Pampanga, Bacoor City,",
       "phone": "(955) 564-4877",
+      "website": "https://www.wyserp.ph/",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/WYS.jpg"
     },
 	{
       "company": "Hyper-Aire Industrial & Development Corporation",
       "address": "18 Ilaya Street, Niog II, Bacoor City, Cavite",
       "phone": "(918) 543-0000",
+      "website": "https://www.yellow-pages.ph/business/hyper-aire-industrial-and-development-corporation/",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/hyper-aire.jpg"
     },
   	{
       "company": "Oddway International",
       "address": "Ayala Ave cor Gil Puyat Ave. Makati City. Manila 1227, Bacoor City",
       "phone": "(987) 333-6444",
+      "website": "https://www.oddwayinternational.com/",
       "image": "https://raw.githubusercontent.com/jonhelman/wdd230/main/lesson9/directory-page/images/logos/oddway.jpg"
     }
 ]

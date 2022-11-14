@@ -72,9 +72,11 @@ header button {display: none;}
 
 /*  */
 
-.join-box {
-	margin-left: -1%;
-}
+.nothing-personal img { 
+    height: auto;
+    max-width: 15em;
+  }
+  
 
 /*  */
 }

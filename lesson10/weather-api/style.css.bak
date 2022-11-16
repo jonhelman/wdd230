@@ -1,0 +1,11 @@
+h1{
+	font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+p {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+img {
+	background-color: blue;
+}

@@ -53,13 +53,17 @@
                     </ul>
                 <li>Lesson 09:
 					<ul>
-                    <li><a = "">JSON and the Fetch API (WIP)</a></li>
-                    <li><a = "">Join Page</a></li>
+                    <li><a href= "lesson9/json/prophets.html">JSON and the Fetch API</a></li>
+                    <li><a href= " ">Business Directory Page(WIP)</a> <a href= "lesson9/directory-page/scripts/data.json">(JSON)</a></li>
                     </ul>
 				
 				</a></li>
-                <li>Lesson 10: <a href="lesson10.html">Title</a></li>
-                <li>Lesson 11: <a href="lesson11.html">Title</a></li>
+                <li>Lesson 10: 	
+					<ul>
+                    <li><a href= "lesson10/weather-api/weatherapi.html">Weather API</a></li>
+                    <li><a href= " ">Business Directory Page(WIP)</a></li>
+                    </ul>
+                <li>Lesson 11: <a href="lesson11.html">Chamber with Weather API (WIP)</a></li>
             </ul>
 
  

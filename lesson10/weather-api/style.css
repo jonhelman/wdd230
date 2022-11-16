@@ -1,0 +1,30 @@
+html {
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+h1{
+	font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+h2{
+	font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+
+figure {
+    color: white;
+    background-color: #0D3B66;
+    width: 80px;
+    padding: 13px;
+	margin-left: 11em
+}
+
+main {
+	background-color: rgb(185, 185, 185);
+	border: 0.5px solid black;
+	padding: 2rem;
+}

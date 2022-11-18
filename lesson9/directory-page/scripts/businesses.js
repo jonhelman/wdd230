@@ -23,11 +23,15 @@ function displayBusinesses(businesses) {
   let phone_no = document.createElement('p');
   let site = document.createElement('a');
 
+  let membership = document.createElement("p")
+
   // Change the textContent property of the h2 element to contain the prophet's full name
 
  address.innerHTML = `${businesses.address}`;
  phone_no.innerHTML = `${businesses.phone}`;
  site.innerHTML = `${businesses.website}`;
+ membership.innerHTML = `Membership Level: ${businesses.level}`;
+
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   site.setAttribute("href", `${businesses.website}`);
@@ -42,6 +46,7 @@ function displayBusinesses(businesses) {
   card.appendChild(address)
   card.appendChild(phone_no)
   card.appendChild(site)
+  card.appendChild(level)
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.nothing-personal').appendChild(card);

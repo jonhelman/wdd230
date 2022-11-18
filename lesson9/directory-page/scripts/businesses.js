@@ -30,7 +30,7 @@ function displayBusinesses(businesses) {
  address.innerHTML = `${businesses.address}`;
  phone_no.innerHTML = `${businesses.phone}`;
  site.innerHTML = `${businesses.website}`;
- membership.innerHTML = `Membership Level: <span class="${businesses.level}">${businesses.level}</span>`;
+ membership.innerHTML = `<strong class="${businesses.level}">${businesses.level} Membership</strong>`;
 
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).

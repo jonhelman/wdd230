@@ -137,19 +137,25 @@ main h2{
 	justify-content: center;
   }
 
-.bronze {
-	font-weight:bold;
+.Bronze {
+	font-family: 'Reem Kufi Ink', sans-serif;
 	color:  #CD7F32;
+	font-size: 30px;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
-.silver {
-	font-weight:bold;
+.Silver {
+	font-family: 'Reem Kufi Ink', sans-serif;
 	color:  #C0C0C0;
+	font-size: 30px;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
-.gold {
-	font-weight:bold;
+.Gold {
+	font-family: 'Reem Kufi Ink', sans-serif;
 	color:  #FFD700;
+	font-size: 30px;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 /* */

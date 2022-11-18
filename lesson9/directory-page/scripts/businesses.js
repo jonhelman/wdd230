@@ -24,7 +24,7 @@ function displayBusinesses(businesses) {
   let site = document.createElement('a');
 
   let membership = document.createElement("p")
-z
+
   // Change the textContent property of the h2 element to contain the prophet's full name
 
  address.innerHTML = `${businesses.address}`;

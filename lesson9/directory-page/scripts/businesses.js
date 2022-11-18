@@ -41,6 +41,8 @@ function displayBusinesses(businesses) {
   logo.setAttribute('alt', `${businesses.company}`);
   logo.setAttribute('loading', 'lazy');
 
+  membership.setAttribute(`class, ${businesses.level}`);
+
   // Add/append the section(card) with the h2 element
   card.appendChild(logo)
   card.appendChild(address)

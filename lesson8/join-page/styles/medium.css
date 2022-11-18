@@ -48,6 +48,14 @@
     
     /* Membership */
 
+    form label.top input, form label.top select {
+        max-width: 20rem;
+    }
+
+    .business-description {
+        width: 25em;
+    }
+
     .membership-box {
         grid-column: 2/2;
         display: block;

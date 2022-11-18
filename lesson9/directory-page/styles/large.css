@@ -72,6 +72,15 @@ header button {display: none;}
 
 /*  */
 
+.nothing-personal {
+    grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
+}
+
+.nothing-personal section {
+	margin: 1.25rem;
+    padding: 0.35rem;
+}
+
 .nothing-personal img { 
     height: auto;
     max-width: 15em;

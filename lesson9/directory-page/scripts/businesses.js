@@ -46,7 +46,7 @@ function displayBusinesses(businesses) {
   card.appendChild(address)
   card.appendChild(phone_no)
   card.appendChild(site)
-  card.appendChild(level)
+  card.appendChild(membership)
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.nothing-personal').appendChild(card);

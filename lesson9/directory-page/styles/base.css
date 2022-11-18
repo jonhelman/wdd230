@@ -137,6 +137,21 @@ main h2{
 	justify-content: center;
   }
 
+.Bronze {
+	font-weight:bold;
+	color:  #CD7F32;
+}
+
+.Silver {
+	font-weight:bold;
+	color:  #C0C0C0;
+}
+
+.Gold {
+	font-weight:bold;
+	color:  #FFD700;
+}
+
 /* */
 footer {
 	color: white;

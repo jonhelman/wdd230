@@ -30,7 +30,7 @@ function displayBusinesses(businesses) {
  address.innerHTML = `${businesses.address}`;
  phone_no.innerHTML = `${businesses.phone}`;
  site.innerHTML = `${businesses.website}`;
- membership.innerHTML = `Membership Level: ${businesses.level}`;
+ membership.innerHTML = `Membership Level: <span="`${businesses.level}`>${businesses.level}</span>`;
 
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
@@ -40,8 +40,6 @@ function displayBusinesses(businesses) {
 
   logo.setAttribute('alt', `${businesses.company}`);
   logo.setAttribute('loading', 'lazy');
-
-  membership.setAttribute(`class`, `${businesses.level}`);
 
   // Add/append the section(card) with the h2 element
   card.appendChild(logo)

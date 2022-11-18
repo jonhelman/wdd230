@@ -24,7 +24,7 @@ function displayBusinesses(businesses) {
   let site = document.createElement('a');
 
   let membership = document.createElement("p")
-
+z
   // Change the textContent property of the h2 element to contain the prophet's full name
 
  address.innerHTML = `${businesses.address}`;
@@ -41,7 +41,7 @@ function displayBusinesses(businesses) {
   logo.setAttribute('alt', `${businesses.company}`);
   logo.setAttribute('loading', 'lazy');
 
-  membership.setAttribute(`class, ${businesses.level}`);
+  membership.setAttribute(`class`, `${businesses.level}`);
 
   // Add/append the section(card) with the h2 element
   card.appendChild(logo)

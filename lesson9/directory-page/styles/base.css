@@ -137,17 +137,17 @@ main h2{
 	justify-content: center;
   }
 
-.Bronze {
+.bronze {
 	font-weight:bold;
 	color:  #CD7F32;
 }
 
-.Silver {
+.silver {
 	font-weight:bold;
 	color:  #C0C0C0;
 }
 
-.Gold {
+.gold {
 	font-weight:bold;
 	color:  #FFD700;
 }

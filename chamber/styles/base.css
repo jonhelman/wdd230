@@ -117,11 +117,12 @@ main {
 	flex-direction: column;
 	background-color: #7ABFDE;
 	text-align: center;
-	margin: 5px;
+	margin: 0px;
 	padding: 10px;
 	border-width: 10px;
 	border: 0.5px solid black;
-    margin-left: -3%;
+    margin-left: -17px;
+    margin-right: -10px;
 }
 
 .home-container h2{
@@ -151,7 +152,7 @@ main {
 }
 
 .hero img {
-	width: 103%;
+	width: 106%;
     height: 100%;
     margin: -33px;	
 }

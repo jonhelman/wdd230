@@ -213,7 +213,7 @@ main {
 .weather-border {
     border: 0;
     height: 2px;
-    background: rgb(216, 214, 214);
+    background: black;
 }
 
 #spotlights {

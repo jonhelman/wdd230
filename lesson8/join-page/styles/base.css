@@ -161,7 +161,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 15rem;
+    max-width: 14rem;
     background-color: rgb(245 245 245);
 }
 
@@ -195,7 +195,7 @@ form label.sbs {
 
 
 .business-description {
-    width: 18em;
+    width: 16em;
 }
 
 .end-section {
@@ -246,7 +246,7 @@ footer {
 
 #logo-footer {
 	width: 10%;
-	margin-top: 5px;
+	margin-top: 17px;
 
 	margin-left: auto;
   	margin-right: auto;

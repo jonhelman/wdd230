@@ -22,4 +22,4 @@ function set_weather_data(){
 }
 
 
-set_weather_data();
+// set_weather_data();

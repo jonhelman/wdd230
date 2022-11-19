@@ -66,11 +66,14 @@
 <div class="weather">
 	<h2>Weather</h2>
 	<div id = "currentweather">
-		<img src="images/rainycloud.png" alt = "rainycloud">
-		<p><span id= "temperature">29</span>°C</p>
+			<img src="#" alt="#" id="weather-icon" />
+		<p><span id= "current-temp"></span>°C</p>
 	</div>
-	<p>Wind Speed: <span id="wspeed">35</span> km/h</p>
+	<p id ="weathercaption"></p>
+	<p>Wind Speed: <span id="wspeed"></span> km/h</p>
 	<p>Wind Chill: <span id="wchill"></span></p>
+	<p class = "weather-border"> </p>
+	<a href ="https://openweathermap.org/" target="_blank">Powered by OpenWeather</a>
 	</div>
 
 	<div class="news">
@@ -132,7 +135,7 @@
         </footer>
 		<script src="scripts/borgir.js"></script>
 		<script src="scripts/currentdate.js"></script>
-		<script src="scripts/windchill.js"></script>
+		<script src="scripts/weather.js"></script>
         </body>
 </html> 
   

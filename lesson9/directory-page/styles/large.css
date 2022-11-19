@@ -73,7 +73,7 @@ header button {display: none;}
 /*  */
 
 .grid {
-	grid-template-columns: repeat(auto-fit, minmax(407px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(387px, 1fr));
 }
 
 .grid section {
@@ -84,7 +84,7 @@ header button {display: none;}
 
 .grid section > * {
     margin: 10px 1rem;    
-	font-size: 14px;
+	font-size: 13px;
 }
 
 

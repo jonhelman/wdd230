@@ -94,16 +94,6 @@ h2 {
 }
 
 
-.hero button {
-	font-size: 25px;
-    left: 31%;
-    right: 50%;
-    width: 396px;
-    height: 53px;
-    bottom: 15%;
-    position: absolute;
-}
-
 .news {
 	height: 100%;
 	width: 94%;
@@ -158,6 +148,10 @@ h2 {
 
 #spotlight-large {
 	display: block;
+}
+
+#spotlights img{
+	width: 15em;
 }
 /* */
 

@@ -156,7 +156,9 @@ main {
     position: absolute;
     right: 50%;
     left: 32%;
-    bottom: 56%;
+    bottom: 30em;
+    top: 20em;
+    height: 3em;
     width: 37%;
 }
 

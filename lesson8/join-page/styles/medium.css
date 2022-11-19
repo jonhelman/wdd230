@@ -70,8 +70,10 @@
 
     .membership-box div {
         border: 0.5px solid black;
-        padding: 20px;
+        padding: 10px;
         margin: 10px;
+
+        font-size: 14px;
     }
 
     .membership-box h2 {

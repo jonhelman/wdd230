@@ -85,6 +85,11 @@
 		margin-left: 30px;
     	margin-right: 0px;
 	}
+
+	.membership-box div {
+		margin: 5px;
+		padding: 20px;
+	}
 	
 	/*  */
 	}

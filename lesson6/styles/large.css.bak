@@ -2,73 +2,71 @@
 
 
 h2 {
-	font-size: 2em;
+font-size: 2em;
+}
+
+header {
+	grid-template-columns: 3fr 1fr 1fr;
+	flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+
+main {
+	margin: 1em;
+	text-align:left;
+}
+
+#title {
+	justify-content: center;
+}
+
+#logo {
+	width: 90%;
 	}
 	
-	header {
-		grid-template-columns: 3fr 1fr 1fr;
-		flex-flow: column;
-		align-items: center;
-		justify-content: center;
-		line-height: 10px;
+.socials {
+	width: 80%;
+}
+
+nav {
+	grid-column: 2/3;
+    grid-row: 1/2;
+	margin-right: 2em;
+    margin-top: 1em;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	list-style: none;
+	margin-top: 0;
+}
+
+nav ul.open { 	
+	display: flex;
+	flex-flow: row;
+}
+	
+
+nav a {
+	font-size: 25px;
+	padding: 0.5em;
+}
+
+header button {display: none;}
+
+#logo-footer {
+	width: 30%;
+	margin-top: 1em;
 	}
-	
-	main {
-		margin: 1em;
-		text-align:left;
-	}
-	
-	
-	#title {
-		justify-content: center;
-	}
-	
-	#logo {
-		width: 308px;
-		}
-		
-	.socials {
-		margin-right: 0;
-		margin: 0px;
-	}
-	
-	nav {
-		grid-column: 2/3;
-		grid-row: 1/2;
-		margin-right: 2em;
-		margin-top: 1em;
-	}
-	
-	nav ul {
-		display: flex;
-		flex-flow: row;
-		justify-content: space-around;
-		list-style: none;
-		margin-top: 0;
-	}
-	
-	nav ul.open { 	
-		display: flex;
-		flex-flow: row;
-	}
-		
-	
-	nav a {
-		font-size: 25px;
-		padding: 0.5em;
-	}
-	
-	header button {display: none;}
-	
-	#logo-footer {
-		width: 30%;
-		margin-top: 1em;
-		}
-	
-	.footer-left {
-		margin-top: 1em;
-	}
-	
+
+.footer-left {
+	margin-top: 1em;
+}
+
 
 /* Home Boxes */
 
@@ -93,14 +91,12 @@ h2 {
     margin: 0;
 }
 
-
 .hero button {
 	font-size: 25px;
     left: 31%;
-    right: 50%;
     width: 396px;
     height: 53px;
-    bottom: 15%;
+    bottom: 10%;
     position: absolute;
 }
 

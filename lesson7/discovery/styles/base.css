@@ -19,7 +19,7 @@ header {
 }
 
 #logo {
-	width: 252px;
+	width: 175px;
     margin: 0.5em;
     margin-left: 20px;
 	}
@@ -28,11 +28,11 @@ header {
 	display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    margin-left: 3em;
+    margin-left: 0;
 }
 
 .socials img {
-	width: 50px;
+	width: 30px;
 }
 
 .socials a {
@@ -201,7 +201,7 @@ footer {
 
 #logo-footer {
 	width: 10%;
-	margin-top: 5px;
+	margin-top: 17px;
 
 	margin-left: auto;
   	margin-right: auto;

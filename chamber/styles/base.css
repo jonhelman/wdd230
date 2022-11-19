@@ -19,20 +19,24 @@ header {
 }
 
 #logo {
-	margin: 0.5em;
-	width: 120%;
+	width: 175px;
+    margin: 0.5em;
+    margin-left: 20px;
 	}
 
 .socials {
 	display: flex;
-	flex-flow: row;
-	justify-content: flex-end;
-    width: 115%;
-    margin: 10px;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin-left: 0;
+}
+
+.socials img {
+	width: 30px;
 }
 
 .socials a {
-	margin: 5px;
+	margin: 4px;
 }
 
 /* nav */
@@ -66,21 +70,6 @@ nav a {
 nav a:hover{ 
 background-color: #E39000; 
 color:black;
-}
-
-/* hamburg germany */
-
-header button {
-    background-color: transparent;
-    border: none;
-    font-size: 1.5rem;
-    color: white;
-	grid-column: 3/3;
-	grid-row: 1/3;
-
-	display: flex;
-    justify-content: flex-end;
-	margin: 1em;	
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -257,7 +246,7 @@ footer {
 
 #logo-footer {
 	width: 10%;
-	margin-top: 5px;
+	margin-top: 17px;
 
 	margin-left: auto;
   	margin-right: auto;

@@ -39,6 +39,11 @@ header {
 	margin: 4px;
 }
 
+button a {
+	color: white;
+    text-decoration: none;
+}
+
 /* nav */
 
 nav {

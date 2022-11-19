@@ -21,21 +21,35 @@ font-size: 35px;
 
 /* */
 
-
-.join-box h2 {
-	text-align: left;	
-    margin-left: 20px;
+.list .title {
+	font-size: 18px;
 }
 
-.end-section {
-    display: block;
-    justify-content: 0;
+.list section {
+    flex-direction: row;
+    text-align: left;
 }
 
-.submitBtn {
-    padding:  .75rem 1.5rem;
-    font-size: 20px;
+.list section > * {
+	text-align: left;
+    margin: 25px 1rem;    
+    font-size: 14px;
 }
+
+.list .Bronze {
+    font-size: 15px;
+}
+
+.list .Silver {
+    font-size: 15px;
+}
+
+.list .Gold {
+    font-size: 15px;
+}
+
+
+
 
 /* */
 

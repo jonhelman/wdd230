@@ -19,7 +19,7 @@ header {
 }
 
 #logo {
-	width: 252px;
+	width: 175px;
     margin: 0.5em;
     margin-left: 20px;
 	}
@@ -28,11 +28,11 @@ header {
 	display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    margin-left: 3em;
+    margin-left: 0;
 }
 
 .socials img {
-	width: 50px;
+	width: 30px;
 }
 
 .socials a {
@@ -121,7 +121,7 @@ main h2{
     padding: 20px;
     border-width: 10px;
     border: 0.5px solid black;
-    margin-left: -4%;
+    margin-left: -20px;
 }
 
 .join-box h2 {

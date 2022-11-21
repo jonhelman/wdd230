@@ -121,7 +121,6 @@ main h2{
     padding: 20px;
     border-width: 10px;
     border: 0.5px solid black;
-    margin-left: -20px;
 }
 
 .join-box h2 {
@@ -170,9 +169,6 @@ form label.sbs {
     padding: .75rem 0;
 }
 
-.required-field {
-    font-style: italic;
-}
 
 .submitBtn {
     border: none;
@@ -203,20 +199,65 @@ form label.sbs {
     justify-content: center;
 }
 
-/* Thank you */
-.thankyou-message {
-    text-align: center;
+/* Membership */
+
+form label.top input, form label.top select {
+    max-width: 20rem;
 }
 
-.thankyou-message h2{
+.business-description {
+    width: 25em;
+}
+
+.membership-box {
+    background-color: #7ABFDE;
+    margin: -16px;
+    padding: 20px;
+    border-width: 10px;
+    border: 0.5px solid black;
+}
+
+.membership-box div {
+    border: 0.5px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.membership-box h2 {
     color: black;
 }
 
-/* Membership */
-
-.membership-box {
-    display:none;
+.membership-mobile-note {
+    display: block;
 }
+
+
+.np-box{
+    background-color: #19d319;
+}
+
+
+.bronze-box{
+    background-color: #CD7F32;
+}
+
+.silver-box{
+    background-color: #C0C0C0;
+}
+
+.gold-box{
+    background-color: #FFD700;
+}
+
+/* Thank you */
+
+.thankyou-message {
+    color: black;
+    grid-column: 1/4;
+    text-align: center;
+}
+
 
 /* */
 footer {

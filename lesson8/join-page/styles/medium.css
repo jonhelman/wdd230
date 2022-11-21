@@ -38,7 +38,7 @@
     
     .end-section {
         display: block;
-        justify-content: 0;
+        justify-content: none;
     }
     
     .submitBtn {
@@ -58,43 +58,13 @@
 
     .membership-box {
         grid-column: 2/2;
-        display: block;
-
-        background-color: #7ABFDE;
-        margin: -16px;
-        padding: 20px;
-        border-width: 10px;
-        border: 0.5px solid black;
         margin-left: 10%;
     }
 
-    .membership-box div {
-        border: 0.5px solid black;
-        padding: 10px;
-        margin: 10px;
+  
 
-        font-size: 14px;
-    }
-
-    .membership-box h2 {
-        color: black;
-    }
-
-    .np-box{
-        background-color: #19d319;
-    }
-
-
-    .bronze-box{
-        background-color: #CD7F32;
-    }
-
-    .silver-box{
-        background-color: #C0C0C0;
-    }
-
-    .gold-box{
-        background-color: #FFD700;
+    .membership-mobile-note {
+        display: none;
     }
 
 

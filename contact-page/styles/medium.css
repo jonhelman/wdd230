@@ -1,0 +1,98 @@
+@media(min-width: 768px){
+	
+    h2 {
+    font-size: 30px;
+    }
+    
+    nav {
+    font-size: 35px;
+    }
+    
+    #logo {
+        width: 450px;
+        margin-left: 0;
+        }
+    
+    .socials{
+        width: 60px;
+        margin-left: 12em;
+    }
+    
+    
+    /* */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .end-section {
+        display: block;
+    }
+    
+
+    form fieldset {
+        width: 90%;
+    }
+    
+
+    form label.top input, form label.top select {
+        max-width: 18rem;
+    }
+
+    .message {
+        width: 24em;
+        height: 20em;
+    }
+
+    
+    .submitBtn {
+        padding:  .75rem 1.5rem;
+        font-size: 20px;
+    }
+
+    .email-us h2 {
+        text-align: left;
+    }
+    
+
+
+    .our-info h2{
+        text-align: left;
+    }
+
+
+    
+    footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 14px;
+    }
+    
+    #logo-footer {
+        width: 50%;
+        margin-top: 1em;
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    
+    .footer-left {
+        grid-column: 2/2;
+        text-align: left;
+    }
+    
+    .footer-right {
+        grid-column: 3/4;
+        margin-top: 3em;
+    }
+    
+    
+    .footer-end {
+        display: grid;
+        grid-column: 1/5;
+    }
+    
+    
+    }

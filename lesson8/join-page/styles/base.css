@@ -207,6 +207,8 @@ form label.top input, form label.top select {
 
 .business-description {
     width: 25em;
+    resize: none;
+
 }
 
 .membership-box {

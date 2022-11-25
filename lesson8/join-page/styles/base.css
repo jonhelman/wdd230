@@ -202,11 +202,11 @@ form label.sbs {
 /* Membership */
 
 form label.top input, form label.top select {
-    max-width: 20rem;
+    max-width: 88%;
 }
 
 .business-description {
-    width: 16em;
+    width: 95%;
     resize: none;
 
 }

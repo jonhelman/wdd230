@@ -148,24 +148,22 @@ main {
 
 
 .hero button {
-    font-family: 'Reem Kufi Ink', sans-serif;
+	font-family: 'Reem Kufi Ink', sans-serif;
     background-color: #04AA6D;
     border: 1px solid green;
     color: white;
-    padding: 10px 24px;
-    position: absolute;
-    right: 50%;
-    left: 32%;
-    bottom: 30em;
-    top: 20em;
-    height: 3em;
-    width: 37%;
+    padding: 11px 29px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: -35px;
+    width: 95%;
+	cursor:pointer;
 }
 
 .hero img {
-	width: 106%;
+	width: 109%;
     height: 100%;
-    margin: -33px;	
+    margin: -30px;
 }
 
 
@@ -190,6 +188,7 @@ main {
 	border: 1px solid green; 
 	color: white;
 	width: 100%;
+	cursor:pointer;
 }
 
 .join button:hover {

@@ -29,17 +29,19 @@
 .hero {
     grid-column: 1/4;
     grid-row: 1/2;
+
+    width: 103%;
+    height: 102%;
+}
+
+.hero img {
+    height: 90%;
 }
 
 .hero button{
     font-size: 25px;
-    left: 31%;
-    right: 50%;
-    width: 335px;
+    width: 70%;
     height: 53px;
-    bottom: 9em;
-    top: 22em;
-    position: absolute;
 }
 
 .news {

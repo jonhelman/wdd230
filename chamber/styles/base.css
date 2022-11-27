@@ -145,7 +145,13 @@ main {
     height: 100%;
 }
 
-
+.welcome {
+	position: absolute;
+    top: 8em;
+    left: 5%;
+    right: 8%;
+	text-shadow: 4px 4px 4px black;
+}
 
 .hero button {
 	font-family: 'Reem Kufi Ink', sans-serif;

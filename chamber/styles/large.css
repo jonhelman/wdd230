@@ -136,9 +136,12 @@ h2 {
 }
 
 .join button{
-	right: 18em;
+    right: 18em;
     bottom: 16em;
-    font-size: 25px;
+    font-size: 30px;
+    border-radius: 25px;
+    width: 90%;
+    height: 2em;
 }
 
 #spotlights {

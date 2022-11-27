@@ -26,6 +26,10 @@ font-size: 35px;
     grid-template-columns: repeat(auto-fit, minmax(490px, 1fr));
 }
 
+.list {
+    font-size: 14px;
+}
+
 .list .title {
 	font-size: 18px;
 }

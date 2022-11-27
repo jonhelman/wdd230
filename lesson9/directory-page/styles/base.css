@@ -84,7 +84,6 @@ header button {
 
 	display: flex;
     justify-content: flex-end;
-	margin: 1em;	
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -131,8 +130,17 @@ main h2{
 
 .grid {
     display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	font-size: 12px;
   }
+
+@media(min-width: 425px){
+.grid {
+	grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+	font-size: 14px;
+}
+}
+ 
   
 .grid img { 
     height: auto;

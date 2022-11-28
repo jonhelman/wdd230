@@ -147,10 +147,11 @@ main {
 
 .welcome {
 	position: absolute;
-    top: 8em;
+    top: 288px;
+    font-size: 17px;
     left: 5%;
     right: 8%;
-	text-shadow: 4px 4px 4px black;
+    text-shadow: 4px 4px 4px black;
 }
 
 .hero button {

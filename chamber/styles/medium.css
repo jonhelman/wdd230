@@ -34,6 +34,11 @@
     height: 102%;
 }
 
+.welcome {
+    top: 355px;
+    font-size: 31px;
+}
+
 .hero img {
     width: 103%;
     height: 90%;
@@ -68,7 +73,7 @@
     grid-column: 3/4;
     grid-row: 5/6;
     height: 100%;
-    width: 105%;
+    width: 109%;
 }
 
 #spotlights {

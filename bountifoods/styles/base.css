@@ -203,6 +203,13 @@ form label.sbs {
   cursor: pointer;
 }
 
+#created-mix {
+  display: none;
+  background-color: #FFD966;
+  margin: 2rem 0;
+  border: 1px solid black;
+  padding: .5rem 2%;
+}
 
 /* About us */
 

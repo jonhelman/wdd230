@@ -36,27 +36,27 @@
 
 <h2 class = "fresh-title">The Fruit Mixer 3000</h2>
 
-<form class = "fresh-mixer" action= ".submitted" method="get">
+<form class = "fresh-mixer" onsubmit="submitForm(event)">
 <fieldset class="top-field">
 	
-	<label class="top">Your First Name*:<input type="text" name="name" required></label>
+	<label class="top">Your First Name*:<input type="text" name="name" id="input-name" required></label>
 	<label class="top">Email Address*:<input type="text" name="email" 
-		placeholder="username@email.com" required></label>
+		placeholder="username@email.com" id="input-email" required></label>
 	<label class="top">Phone No. (optional):<input type="tel" name="phone" placeholder="09##########"></label>
 	
 	<i>*Required fields</i>
 
 
-	<p class = "fresh-three">Add three fruits to mix together:</p>
+	<p class = "fresh-three" action="" method="post">Add two or three fruits to mix together:</p>
 
-	<label class="top">First Fruit:</label>
-		<select name="fruit-options-1" id="fruits-1">
+	<label class="top">First Fruit*:</label>
+		<select name="fruit-options-1" id="fruits-1" required>
 		</select>
-	<label class="top">Second Fruit:</label>
-		<select name="fruit-options-2" id="fruits-2">
+	<label class="top">Second Fruit*:</label>
+		<select name="fruit-options-2" id="fruits-2" required>
 		</select>
-	<label class="top">Third Fruit:</label>
-		<select name="fruit-options-3" id="fruits-3">
+	<label class="top">Third Fruit*:</label>
+		<select name="fruit-options-3" id="fruits-3" required>
 		</select>
 
 		<br>
@@ -65,6 +65,23 @@
 		<input class="submitBtn" type="submit" value="Create Mix">
 	</fieldset>
 </form>
+
+<div id ="created-mix">
+	<h2>Specialty Drink created!</h2>
+	<h2>A <span id="name"></span> Special</h2>
+
+	<p><strong>Fruits:</strong> <span id="selected-1"></span> + <span id="selected-2"></span> + <span id="selected-3"></span></p>
+	<br>
+	<u>Nutrients:</u>
+	<p><strong>Carbohydrates:</strong> <span id="carbs"></span></p>
+	<p><strong>Protein:</strong> <span id="protein"></span></p>
+	<p><strong>Fat:</strong> <span id="fat"></span></p>
+	<p><strong>Sugar:</strong> <span id="sugar"></span></p>
+	<p><strong>Calories:</strong> <span id="calories"></span></p>
+	<br>
+	<p><strong>Your email:</strong> <span id="email"></span></p>
+	<p><strong>Order Date:</strong> <span id ="order-date"></span></p>
+</div>
 
 </main>
 	

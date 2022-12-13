@@ -3,9 +3,10 @@ const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 //Fruits 1
 let dropdown1 = document.getElementById('fruits-1');
 dropdown1.length = 0;
+fruitcarbs1 = 0;
 
 let defaultOption1 = document.createElement('option');
-defaultOption1.text = 'Select a fruit';
+defaultOption1.text =  "";
 
 dropdown1.add(defaultOption1);
 dropdown1.selectedIndex = 0;
@@ -40,7 +41,7 @@ let dropdown2 = document.getElementById('fruits-2');
 dropdown2.length = 0;
 
 let defaultOption2 = document.createElement('option');
-defaultOption2.text = 'Select a fruit';
+defaultOption2.text = "";
 
 dropdown2.add(defaultOption2);
 dropdown2.selectedIndex = 0;
@@ -76,7 +77,7 @@ let dropdown3 = document.getElementById('fruits-3');
 dropdown3.length = 0;
 
 let defaultOption3 = document.createElement('option');
-defaultOption3.text = 'Select a fruit';
+defaultOption3.text = "";
 
 dropdown3.add(defaultOption3);
 dropdown3.selectedIndex = 0;
@@ -90,7 +91,6 @@ fetch(url)
         return;  
       }
 
-      // Examine the text in the response  
       response.json().then(function(data) {  
         let option3;
     
@@ -106,4 +106,39 @@ fetch(url)
     console.error('Fetch Error -', err);  
   });
 
+  function submitForm(event) {
+    event.preventDefault();
+    var form = event.target;
+    var data = new FormData(form);
 
+    //fetch('/submit-form', {
+     // method: 'POST',
+     // body: data
+   // });
+  
+    
+    var mixedresults = document.getElementById('created-mix');
+    mixedresults.style.display = 'block';
+
+    var inputName = document.getElementById('input-name');
+    var inputEmail = document.getElementById('input-email');
+
+
+    var submittedName =  document.getElementById('name')
+    var submittedEmail =  document.getElementById('email')
+    var submitDate = document.getElementById('order-date')
+    var currentDate = new Date()
+
+    var selectedFruit1 = document.getElementById('selected-1')
+    var selectedFruit2 = document.getElementById('selected-2')
+    var selectedFruit3 = document.getElementById('selected-3')
+
+    submittedName.innerHTML = inputName.value;
+    submittedEmail.innerHTML = inputEmail.value;
+    selectedFruit1.innerHTML = dropdown1.value;
+    selectedFruit2.innerHTML = dropdown2.value;
+    selectedFruit3.innerHTML = dropdown3.value;
+    submitDate.innerHTML = currentDate.toLocaleDateString();
+
+
+  }

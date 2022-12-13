@@ -1,5 +1,7 @@
 const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 
+let numMade = Number(window.localStorage.getItem("drinks-made"));
+
 //Fruits 1
 let dropdown1 = document.getElementById('fruits-1');
 dropdown1.length = 0;
@@ -107,6 +109,9 @@ fetch(url)
   });
 
   function submitForm(event) {
+    
+    localStorage.setItem("drinks-made", 1);
+ 
     event.preventDefault();
     var form = event.target;
     var data = new FormData(form);

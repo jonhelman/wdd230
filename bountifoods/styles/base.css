@@ -1,0 +1,246 @@
+/* Main */
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+	font-family: "League Spartan", sans-serif;
+}
+
+.header-title {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-title h2 {
+  font-size: 22px;
+  margin-top: 33px;
+}
+
+
+.header-title img {
+  width: 60px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #009900;
+}
+
+#primaryNav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li{
+  padding: 6px;
+  list-style: none;
+  font-size: 23px;
+  margin-right: 23px;
+} 
+
+nav a {
+  text-decoration: none;
+  color: #FFFF00;
+}
+
+nav a:hover {
+  background-color: #ff9838;
+  color: #005c00;
+}
+
+
+footer {
+  text-align: center;
+  background-color: green;
+  color: #ebebeb;
+  padding: 6px;
+}
+
+/* Home */
+
+.welcome {
+  text-align: center;
+}
+
+.welcome img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.welcome h2 {
+  color: #FF0000;
+}
+
+.welcome p {
+  margin: 12px;
+}
+
+.call {
+  background-color: #FFD966;
+  border-width: 10px;
+  border: 0.5px solid black;
+  text-align: center;
+}
+
+.call button {
+  font-family: 'League Spartan', sans-serif;
+  background-color: #FF0000;
+  border: 1px solid red;
+  color: white;
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor:pointer;
+}
+
+.call button:hover{
+  background-color: #9c0000;
+}
+
+.specialties {
+  background-color: #FFD966;
+  border-width: 10px;
+  border: 0.5px solid black;
+  text-align: center;
+}
+
+.weather-box {
+  background-color: #FFD966;
+  border-width: 10px;
+  border: 0.5px solid black;
+  text-align: center;
+}
+
+#currentweather {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+#weathercaption {
+	text-transform: capitalize;
+} 
+
+#forecast {
+  display: none;
+}
+
+/* Fresh */
+
+.fresh-title {
+  text-align: center;
+}
+
+.field-title {
+  font-weight: bold;
+}
+
+form fieldset {
+  background-color: #FFD966;
+  margin: 2rem 0;
+  border: 1px solid black;
+  padding: .5rem 2%;
+}
+
+form legend{
+  color: black;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top, form.div {
+  display: block;
+  padding-top: 1rem;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 14rem;
+  background-color: rgb(245 245 245);
+}
+
+form label.sbs {    
+  display:block;
+  padding: .75rem 0;
+}
+
+.fresh-three {
+  margin-bottom: -10px;
+  margin-top: 30px;
+}
+
+.submitBtn {
+  border: none;
+  background-color: #FF0000;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 2.5rem;
+  margin: 0px 0 1rem 1%;
+  width: 50%;
+  max-width: 20rem;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 23px;
+}
+
+.submitBtn:hover {
+  color:  white;
+  background-color: #9c0000;
+  cursor: pointer;
+}
+
+
+/* About us */
+
+.about-us-title {
+  text-align: center;
+}
+
+.about-us-img{
+  margin-left: 15%;
+  width: 70%;
+}
+
+.about-us-hist{
+  margin: 1em;
+  text-align: center;
+}
+
+.about-us-contact {
+  background-color: #FFD966;
+  border-width: 10px;
+  border: 0.5px solid black;
+}
+
+.about-us-contact h2{
+  text-align: center;
+}
+
+
+.about-us-contact p{
+  margin: 1em;
+}
+
+
+.about-us-contact img{
+  margin-left: 9px;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+
+/*  */

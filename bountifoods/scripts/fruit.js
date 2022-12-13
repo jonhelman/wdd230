@@ -5,7 +5,6 @@ let numMade = Number(window.localStorage.getItem("drinks-made"));
 //Fruits 1
 let dropdown1 = document.getElementById('fruits-1');
 dropdown1.length = 0;
-fruitcarbs1 = 0;
 
 let defaultOption1 = document.createElement('option');
 defaultOption1.text =  "";
@@ -25,7 +24,7 @@ fetch(url)
       // Examine the text in the response  
       response.json().then(function(data) {  
         let option1;
-    
+
     	for (let i = 0; i < data.length; i++) {
           option1 = document.createElement('option');
       	  option1.text = data[i].name;
@@ -110,7 +109,9 @@ fetch(url)
 
   function submitForm(event) {
     
-    localStorage.setItem("drinks-made", 1);
+    console.log(fruitcarbs1)
+
+    localStorage.setItem("drinks-made", ++numMade);
  
     event.preventDefault();
     var form = event.target;

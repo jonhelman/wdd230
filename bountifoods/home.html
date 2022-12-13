@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home - Bountiful Foods</title>
+	<meta charset="utf-8">
+    <meta name="author" content="Helaman Chan">
+	<meta name="description" content="The freshest fruits in the West Coast!">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<link href="styles/base.css" rel="stylesheet" type="text/css">
+	<link href="styles/medium.css" rel="stylesheet" type="text/css">
+	<link href="styles/large.css" rel="stylesheet" type="text/css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+	<div class = "header-title">
+		<img src="images/b.png" alt = "b">
+		<h2>Bountiful Foods</h2>
+	</div>
+	<nav>
+    <ul id="primaryNav">
+		<li><a href="home.html">Home</a></li>
+		<li><a href="fresh.html">Fresh</a></li>
+		<li><a href="about-us.html">About Us</a></li>
+	</ul>
+	</nav>
+</header>
+
+<main>
+
+	<div class = "welcome">
+		<img src = "images/carlsbad-strawberry-fields-4.webp" alt="strawberry">
+		<h2>Welcome to Bountiful Fools</h2>
+		<p>We are dedicated to providing our customers with the freshest and highest quality organic fruits available in Southern California.</p>
+		<p>At our farm, we prioritize sustainable and environmentally-friendly farming practices to ensure that our fruits are not only delicious, but also healthy for both you and the planet. Our team of experienced farmers carefully tend to each and every fruit tree to produce the best possible yield.
+			We offer a wide variety of organic fruits, including apples, strawberries, blueberries, cherries, and more. All of our fruits are picked at the peak of ripeness to ensure that they are bursting with flavor and nutrition.</p>
+		<p>In addition to being delicious, our organic fruits are also good for you. Because they are grown without the use of harmful pesticides and chemicals, they are packed with essential vitamins and minerals that are essential for a healthy diet, as we believe that our home deserve nothing but the healthiest and freshest fruit in Southern California. From the shores of San Diego to the coasts of Los Angeles.</p>
+		<p>If you're in the Carlsbad area, we invite you to visit our farm and see for yourself the care and attention that goes into growing our organic fruits. You can also find our fruits at local farmers markets and select grocery stores.</p>
+		<p>Thank you for choosing our organic fruit vendor. We look forward to providing you with the freshest and tastiest fruits available! If you want to learn more about us, visit the "About Us" page! Our site can also help you build a speciality drink using different fruit combinations. Feel free to try it out in the "Fresh" page!</p>
+		<p>Have a bountiful day!</p>
+
+		<p><i>And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.</i></p>
+		<p><i><strong>-Genesis 1:29</strong></i></p>
+	</div>
+
+
+	<div class = "home-boxes">
+		<div class = "call">
+			<p>What are you waiting for?</p>
+			<p>Mix your own drink now!</p>
+			<form action ="fresh.html">
+				<button>Visit the Fresh Page!</button>
+			</form>
+		</div>
+
+		<div class = "specialties">
+			<h2>Specialty Drinks</h2>
+			<h2>30</h2>
+		</div>
+
+		<div class = "weather-box">
+			<h2 class = "weather-title">Carlsbad, CA Weather</h2>
+
+			<div id = "currentweather">
+				<img src="#" alt="#" id="weather-icon">
+				<p><span id= "current-temp"></span>°F</p>
+			</div>
+			<div id = "weather-details">
+				<p id ="weathercaption"></p>
+				<p>Humidity: <span id="humidity"></span>%</p>
+			</div>
+
+			<div id = "forecast">
+				<div class = "fore">
+					<img src="#" alt="#" id="foreicon1">
+					<p id = "foreday1">one</p>
+				</div>
+				<div class = "fore">
+					<img src="#" alt="#" id="foreicon2">
+					<p id = "foreday2">two</p>
+				</div>
+				<div class = "fore">
+					<img src="#" alt="#" id="foreicon3">
+					<p id = "foreday3">thr</p>
+				</div>
+			</div>
+			<p class = "weather-border"> </p>
+			<a href ="https://openweathermap.org/" target="_blank">Powered by OpenWeather</a>
+			<p></p>
+		</div>
+		<br>
+	</div>
+</main>
+	
+<footer>
+	<div class = footer-contact>
+		<h2 class = "contact-title">Contact Us:</h2>
+		<div class = footer-1>
+			<p>700 Pine Ave.</p>
+			<p>Carlsbad CA 92008-2427</p>
+			<p>USA</p>
+		</div>
+
+		<div class = footer-2>
+			<p>bountifruits@email.com</p>
+			<p>+1 (760) 2070-2300</p>
+		</div>
+
+		<div class = footer-3>
+			<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+			<a href="https://mobile.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+			<a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="youtube"></a>
+		</div>
+	</div>
+	<p>&copy; 2022 Bacoormerce | Helaman Chan | WDD 230 Project | Last Modified: <script src="scripts/datemodified.js"></script></p>
+</footer>
+
+<script src="scripts/weather.js"></script>
+<script src="scripts/weather-forecast.js"></script>
+</body>
+</html> 
+  

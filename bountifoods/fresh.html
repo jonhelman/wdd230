@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home - Bountiful Foods</title>
+	<meta charset="utf-8">
+    <meta name="author" content="Helaman Chan">
+	<meta name="description" content="The freshest fruits in the West Coast!">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<link href="styles/base.css" rel="stylesheet" type="text/css">
+	<link href="styles/medium.css" rel="stylesheet" type="text/css">
+	<link href="styles/large.css" rel="stylesheet" type="text/css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+	<div class = "header-title">
+		<img src="images/b.png" alt = "b">
+		<h2>Bountiful Foods</h2>
+	</div>
+	<nav>
+    <ul id="primaryNav">
+		<li><a href="home.html">Home</a></li>
+		<li><a href="fresh.html">Fresh</a></li>
+		<li><a href="about-us.html">About Us</a></li>
+	</ul>
+	</nav>
+</header>
+
+<main>
+
+<h2 class = "fresh-title">The Fruit Mixer 3000</h2>
+
+<form class = "fresh-mixer" action= ".submitted" method="get">
+<fieldset class="top-field">
+	
+	<label class="top">Your First Name*:<input type="text" name="name" required></label>
+	<label class="top">Email Address*:<input type="text" name="email" 
+		placeholder="username@email.com" required></label>
+	<label class="top">Phone No. (optional):<input type="tel" name="phone" placeholder="09##########"></label>
+	
+	<i>*Required fields</i>
+
+
+	<p class = "fresh-three">Add three fruits to mix together:</p>
+
+	<label class="top">First Fruit:</label>
+		<select name="fruit-options-1" id="fruits-1">
+		</select>
+	<label class="top">Second Fruit:</label>
+		<select name="fruit-options-2" id="fruits-2">
+		</select>
+	<label class="top">Third Fruit:</label>
+		<select name="fruit-options-3" id="fruits-3">
+		</select>
+
+		<br>
+		<br>
+		<input type="hidden" id="timendate" name="timendate" value="">
+		<input class="submitBtn" type="submit" value="Create Mix">
+	</fieldset>
+</form>
+
+</main>
+	
+<footer>
+	<div class = footer-contact>
+		<h2 class = "contact-title">Contact Us:</h2>
+		<div class = footer-1>
+			<p>700 Pine Ave.</p>
+			<p>Carlsbad CA 92008-2427</p>
+			<p>USA</p>
+		</div>
+
+		<div class = footer-2>
+			<p>bountifruits@email.com</p>
+			<p>+1 (760) 2070-2300</p>
+		</div>
+
+		<div class = footer-3>
+			<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+			<a href="https://mobile.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+			<a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="youtube"></a>
+		</div>
+	</div>
+	<p>&copy; 2022 Bacoormerce | Helaman Chan | WDD 230 Project | Last Modified: <script src="scripts/datemodified.js"></script></p>
+</footer>
+
+<script src="scripts/fruit.js"></script>
+</body>
+</html> 
+  

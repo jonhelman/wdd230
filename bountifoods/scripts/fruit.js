@@ -114,21 +114,19 @@ fetch(url)
 
   function submitForm(event) {
     
-
-    localStorage.setItem("drinks-made", ++numMade);
- 
     event.preventDefault();
     var form = event.target;
     var data = new FormData(form);
 
-
-    //fetch('/submit-form', {
+        //fetch('/submit-form', {
      // method: 'POST',
      // body: data
    // });
 
-    
-    
+
+    localStorage.setItem("drinks-made", ++numMade);
+ 
+
     var mixedresults = document.getElementById('created-mix');
     mixedresults.style.display = 'block';
 

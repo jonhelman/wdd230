@@ -3,7 +3,7 @@ const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 let numMade = Number(window.localStorage.getItem("drinks-made"));
 
 //Fruits 1
-let dropdown1 = document.getElementById('fruits-1');
+var dropdown1 = document.getElementById('fruits-1');
 dropdown1.length = 0;
 
 let defaultOption1 = document.createElement('option');
@@ -28,6 +28,7 @@ fetch(url)
     	for (let i = 0; i < data.length; i++) {
           option1 = document.createElement('option');
       	  option1.text = data[i].name;
+          option1.value = data[i].nutritions.carbohydrates;
       	  dropdown1.add(option1);
     	}    
       });  
@@ -38,7 +39,7 @@ fetch(url)
   });
 
 //Fruits 2
-let dropdown2 = document.getElementById('fruits-2');
+var dropdown2 = document.getElementById('fruits-2');
 dropdown2.length = 0;
 
 let defaultOption2 = document.createElement('option');
@@ -63,6 +64,7 @@ fetch(url)
     	for (let i = 0; i < data.length; i++) {
           option2 = document.createElement('option');
       	  option2.text = data[i].name;
+          option2.value = data[i].nutritions.carbohydrates;
       	  dropdown2.add(option2);
     	}    
       });  
@@ -74,7 +76,7 @@ fetch(url)
 
 //Fruits 3
 
-let dropdown3 = document.getElementById('fruits-3');
+var dropdown3 = document.getElementById('fruits-3');
 dropdown3.length = 0;
 
 let defaultOption3 = document.createElement('option');
@@ -98,6 +100,7 @@ fetch(url)
     	for (let i = 0; i < data.length; i++) {
           option3 = document.createElement('option');
       	  option3.text = data[i].name;
+          option3.value = data[i].nutritions.carbohydrates;
       	  dropdown3.add(option3);
     	}    
       });  
@@ -107,9 +110,10 @@ fetch(url)
     console.error('Fetch Error -', err);  
   });
 
+   
+
   function submitForm(event) {
     
-    console.log(fruitcarbs1)
 
     localStorage.setItem("drinks-made", ++numMade);
  
@@ -117,11 +121,13 @@ fetch(url)
     var form = event.target;
     var data = new FormData(form);
 
+
     //fetch('/submit-form', {
      // method: 'POST',
      // body: data
    // });
-  
+
+    
     
     var mixedresults = document.getElementById('created-mix');
     mixedresults.style.display = 'block';
@@ -130,20 +136,38 @@ fetch(url)
     var inputEmail = document.getElementById('input-email');
 
 
-    var submittedName =  document.getElementById('name')
-    var submittedEmail =  document.getElementById('email')
-    var submitDate = document.getElementById('order-date')
-    var currentDate = new Date()
+    var submittedName =  document.getElementById('name');
+    var submittedEmail =  document.getElementById('email');
+    var submitDate = document.getElementById('order-date');
+    var currentDate = new Date();
 
-    var selectedFruit1 = document.getElementById('selected-1')
-    var selectedFruit2 = document.getElementById('selected-2')
-    var selectedFruit3 = document.getElementById('selected-3')
+    
+    var selectFruit1 = dropdown1.options[dropdown1.selectedIndex];
+    var selectFruit1Text = selectFruit1.textContent;
+
+    var selectFruit2 = dropdown2.options[dropdown2.selectedIndex];
+    var selectFruit2Text = selectFruit2.textContent;
+
+    var selectFruit3 = dropdown3.options[dropdown3.selectedIndex];
+    var selectFruit3Text = selectFruit3.textContent;
+
+
+    var selectedFruit1 = document.getElementById('selected-1');
+    var selectedFruit2 = document.getElementById('selected-2');
+    var selectedFruit3 = document.getElementById('selected-3');
+    var carbDisplay = document.getElementById('carbs');
+
 
     submittedName.innerHTML = inputName.value;
     submittedEmail.innerHTML = inputEmail.value;
-    selectedFruit1.innerHTML = dropdown1.value;
-    selectedFruit2.innerHTML = dropdown2.value;
-    selectedFruit3.innerHTML = dropdown3.value;
+    selectedFruit1.innerHTML = selectFruit1Text;
+    selectedFruit2.innerHTML = selectFruit2Text;
+    selectedFruit3.innerHTML = selectFruit3Text;
+    
+    var totalCarbs = +dropdown1.value + +dropdown2.value + +dropdown3.value;
+    carbDisplay.innerHTML = totalCarbs;
+  
+
     submitDate.innerHTML = currentDate.toLocaleDateString();
 
 

@@ -221,6 +221,7 @@ form label.sbs {
 .about-us-img{
   margin-left: 15%;
   width: 70%;
+  height: 100%;
 }
 
 .about-us-hist{
@@ -247,6 +248,7 @@ form label.sbs {
 .about-us-contact img{
   margin-left: 9px;
   width: 95%;
+  height: 100%;
   margin-bottom: 10px;
 }
 
